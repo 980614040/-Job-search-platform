@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{11BF87E9-29C5-4105-B53C-0A64DF4EC022}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>求职平台系统</RootNamespace>
+    <AssemblyName>求职平台系统</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="db.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="个人信息修改.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="个人信息修改.Designer.cs">
+      <DependentUpon>个人信息修改.cs</DependentUpon>
+    </Compile>
+    <Compile Include="修改密码界面.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="修改密码界面.Designer.cs">
+      <DependentUpon>修改密码界面.cs</DependentUpon>
+    </Compile>
+    <Compile Include="公司信息修改.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="公司信息修改.Designer.cs">
+      <DependentUpon>公司信息修改.cs</DependentUpon>
+    </Compile>
+    <Compile Include="公司详细信息.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="公司详细信息.Designer.cs">
+      <DependentUpon>公司详细信息.cs</DependentUpon>
+    </Compile>
+    <Compile Include="公开简历.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="公开简历.Designer.cs">
+      <DependentUpon>公开简历.cs</DependentUpon>
+    </Compile>
+    <Compile Include="删除招聘信息.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="删除招聘信息.Designer.cs">
+      <DependentUpon>删除招聘信息.cs</DependentUpon>
+    </Compile>
+    <Compile Include="发布招聘信息.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="发布招聘信息.Designer.cs">
+      <DependentUpon>发布招聘信息.cs</DependentUpon>
+    </Compile>
+    <Compile Include="招聘信息审核.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="招聘信息审核.Designer.cs">
+      <DependentUpon>招聘信息审核.cs</DependentUpon>
+    </Compile>
+    <Compile Include="招聘信息查询及修改.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="招聘信息查询及修改.Designer.cs">
+      <DependentUpon>招聘信息查询及修改.cs</DependentUpon>
+    </Compile>
+    <Compile Include="收到申请.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="收到申请.Designer.cs">
+      <DependentUpon>收到申请.cs</DependentUpon>
+    </Compile>
+    <Compile Include="收到邀请及收到申请.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="收到邀请及收到申请.Designer.cs">
+      <DependentUpon>收到邀请及收到申请.cs</DependentUpon>
+    </Compile>
+    <Compile Include="查询求职人员.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="查询求职人员.Designer.cs">
+      <DependentUpon>查询求职人员.cs</DependentUpon>
+    </Compile>
+    <Compile Include="查询招募信息.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="查询招募信息.Designer.cs">
+      <DependentUpon>查询招募信息.cs</DependentUpon>
+    </Compile>
+    <Compile Include="求职人员窗体.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="求职人员窗体.Designer.cs">
+      <DependentUpon>求职人员窗体.cs</DependentUpon>
+    </Compile>
+    <Compile Include="注册界面.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="注册界面.Designer.cs">
+      <DependentUpon>注册界面.cs</DependentUpon>
+    </Compile>
+    <Compile Include="用人单位窗体.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="用人单位窗体.Designer.cs">
+      <DependentUpon>用人单位窗体.cs</DependentUpon>
+    </Compile>
+    <Compile Include="私密简历.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="私密简历.Designer.cs">
+      <DependentUpon>私密简历.cs</DependentUpon>
+    </Compile>
+    <Compile Include="管理者窗体.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="管理者窗体.Designer.cs">
+      <DependentUpon>管理者窗体.cs</DependentUpon>
+    </Compile>
+    <Compile Include="邀请函.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="邀请函.Designer.cs">
+      <DependentUpon>邀请函.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="个人信息修改.resx">
+      <DependentUpon>个人信息修改.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="修改密码界面.resx">
+      <DependentUpon>修改密码界面.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="公司信息修改.resx">
+      <DependentUpon>公司信息修改.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="公司详细信息.resx">
+      <DependentUpon>公司详细信息.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="公开简历.resx">
+      <DependentUpon>公开简历.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="删除招聘信息.resx">
+      <DependentUpon>删除招聘信息.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="发布招聘信息.resx">
+      <DependentUpon>发布招聘信息.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="招聘信息审核.resx">
+      <DependentUpon>招聘信息审核.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="招聘信息查询及修改.resx">
+      <DependentUpon>招聘信息查询及修改.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="收到申请.resx">
+      <DependentUpon>收到申请.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="收到邀请及收到申请.resx">
+      <DependentUpon>收到邀请及收到申请.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="查询求职人员.resx">
+      <DependentUpon>查询求职人员.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="查询招募信息.resx">
+      <DependentUpon>查询招募信息.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="求职人员窗体.resx">
+      <DependentUpon>求职人员窗体.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="注册界面.resx">
+      <DependentUpon>注册界面.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="用人单位窗体.resx">
+      <DependentUpon>用人单位窗体.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="私密简历.resx">
+      <DependentUpon>私密简历.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="管理者窗体.resx">
+      <DependentUpon>管理者窗体.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="邀请函.resx">
+      <DependentUpon>邀请函.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
